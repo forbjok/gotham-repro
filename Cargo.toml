@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Forb.Jok <forbjok@gmail.com>"]
 
 [dependencies]
-gotham = { git = "https://github.com/gotham-rs/gotham.git" }
-gotham_derive = { git = "https://github.com/gotham-rs/gotham.git" }
-hyper = "~0.11.11"
-slog = "~2.1.1"
+gotham = { git = "https://github.com/gotham-rs/gotham.git", branch = "remove-invisible-dep-derive-crate" }
+gotham_derive = { git = "https://github.com/gotham-rs/gotham.git", branch = "remove-invisible-dep-derive-crate" }
+hyper = "^0.11.14"
+slog = "^2.1.1"
